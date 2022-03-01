@@ -53,7 +53,29 @@ puts "#{mixArr.unshift(1)}";
 # .delete_at method = permantently delete specific element
 puts "#{mixArr.delete_at(2)}";
 
-# .reverse
+# .reverse method
 puts "#{mixArr.reverse}";
 
+# Getting Multiple Elements
+# Array name [index,number you want]
+puts "#{mixArr[1,3]}";
 
+# .slice method
+puts "#{mixArr.slice(2,3)}";
+
+# .include method
+puts mixArr.include? "Rutvik";
+puts mixArr.include? "Rutik";
+
+# .sort method
+numArr = [3,12,65,32,6,4]
+puts "#{numArr.sort}";
+countries = ["India","UK", "USA", "Canada"];
+puts "#{countries.sort}";
+
+# .uniq method
+dupArr = [1,1,1,2,3,4,4,1,6,4,7,5,6];
+puts "#{dupArr.uniq};"
+
+# .join method
+puts "#{countries.join(" | ")};"
