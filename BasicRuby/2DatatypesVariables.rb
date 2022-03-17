@@ -14,3 +14,4 @@ puts haters; #Print nothing
 
 puts "Hello #{playerName}"
 puts "#{playerName} played #{game} with average of #{average} and stumping is #{stumping} ."
+
