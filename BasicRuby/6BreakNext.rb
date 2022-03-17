@@ -2,6 +2,7 @@ for i in 0..5 do
     puts "Value of i is #{i}";
 end
 
+
 # break Statement 
 puts "";
 puts "break statement"
@@ -11,6 +12,7 @@ for a in 0..5 do
     end
     puts "Value of i is #{a}";
 end
+
 
 # next Statement 
 puts "";

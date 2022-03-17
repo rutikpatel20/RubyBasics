@@ -55,5 +55,3 @@ puts "#{mixArr.delete_at(2)}";
 
 # .reverse
 puts "#{mixArr.reverse}";
-
-
