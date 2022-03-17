@@ -39,4 +39,3 @@ puts "";
 puts "Enter Any String again : ";
 anyStr2 = gets.chomp
 puts "Length of String is using gets input : #{anyStr2.length}"
-
